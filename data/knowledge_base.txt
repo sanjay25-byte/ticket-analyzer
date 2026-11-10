@@ -1,0 +1,14 @@
+## VPN troubleshooting | VPN
+If VPN fails to connect, clear cached credentials, reset the VPN profile, and reinstall the client. For frequent drops on Wi-Fi, disable Wi-Fi power saving and switch the protocol to TCP.
+
+## Account lockout policy | Password
+Accounts lock after 5 failed attempts. Helpdesk can unlock in Active Directory. Enforce a password reset at next login after unlocking.
+
+## Outlook sync issues | Email
+For stuck syncing, recreate the Outlook profile and rebuild the OST file. If the mailbox is full, archive old mail or request a quota increase.
+
+## Printer offline checklist | Printer
+Restart the print spooler, confirm the printer has a static IP, and re-add the printer on the affected machines.
+
+## Shared folder access | Access
+Access requires manager approval. After approval, add the user to the matching AD security group.

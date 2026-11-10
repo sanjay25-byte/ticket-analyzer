@@ -1,0 +1,201 @@
+ticket_id,category,priority,title,description,resolution
+INC1000,Hardware,P2,Laptop running slow,"Laptop very slow, high disk usage for Sales user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1001,Password,P1,Account locked out,User locked out after multiple failed logins on IT.,Unlocked account in AD and enforced password reset on next login.
+INC1002,VPN,P2,Cannot connect to VPN,VPN client fails with error 619 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1003,Hardware,P1,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1004,Access,P2,Need access to shared folder,Sales user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1005,Access,P3,Need access to shared folder,IT user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1006,Access,P1,Need access to shared folder,HR user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1007,Printer,P3,Printer offline,Printer on floor 28 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1008,Software,P3,Cannot install software,"Install of Zoom blocked, error 809.",Approved request via software catalog and pushed install through SCCM.
+INC1009,VPN,P3,Cannot connect to VPN,VPN client fails with error 809 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1010,Password,P1,Password reset not working,Self-service reset sends no email for Marketing user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1011,Software,P3,Cannot install software,"Install of SAP GUI blocked, error 619.",Approved request via software catalog and pushed install through SCCM.
+INC1012,Hardware,P1,Laptop running slow,"Laptop very slow, high disk usage for HR user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1013,Access,P3,Need access to shared folder,HR user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1014,Password,P2,Password reset not working,Self-service reset sends no email for Marketing user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1015,Email,P3,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 619.,Recreated Outlook profile and rebuilt the OST file.
+INC1016,Hardware,P4,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1017,VPN,P4,Cannot connect to VPN,VPN client fails with error 809 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1018,Software,P3,Cannot install software,"Install of SAP GUI blocked, error 1603.",Approved request via software catalog and pushed install through SCCM.
+INC1019,Software,P3,Cannot install software,"Install of Tableau blocked, error 809.",Approved request via software catalog and pushed install through SCCM.
+INC1020,VPN,P3,VPN keeps disconnecting,VPN drops every 7 minutes while on Wi-Fi.,Disabled Wi-Fi power saving and switched VPN protocol to TCP.
+INC1021,Software,P2,Cannot install software,"Install of Tableau blocked, error 809.",Approved request via software catalog and pushed install through SCCM.
+INC1022,Password,P3,Password reset not working,Self-service reset sends no email for Legal user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1023,Printer,P1,Printer offline,Printer on floor 13 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1024,Password,P2,Account locked out,User locked out after multiple failed logins on IT.,Unlocked account in AD and enforced password reset on next login.
+INC1025,Password,P4,Password reset not working,Self-service reset sends no email for Legal user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1026,Password,P4,Account locked out,User locked out after multiple failed logins on Marketing.,Unlocked account in AD and enforced password reset on next login.
+INC1027,Software,P3,Application crashing,Adobe Reader crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1028,VPN,P2,Cannot connect to VPN,VPN client fails with error 619 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1029,VPN,P3,Cannot connect to VPN,VPN client fails with error 0x80070005 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1030,Hardware,P4,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1031,Password,P4,Password reset not working,Self-service reset sends no email for HR user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1032,Email,P1,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1033,VPN,P2,VPN keeps disconnecting,VPN drops every 27 minutes while on Wi-Fi.,Disabled Wi-Fi power saving and switched VPN protocol to TCP.
+INC1034,Password,P4,Password reset not working,Self-service reset sends no email for Finance user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1035,Password,P1,Account locked out,User locked out after multiple failed logins on Legal.,Unlocked account in AD and enforced password reset on next login.
+INC1036,Hardware,P4,Laptop running slow,"Laptop very slow, high disk usage for Finance user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1037,Printer,P2,Printer offline,Printer on floor 29 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1038,Printer,P4,Printer offline,Printer on floor 10 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1039,Hardware,P1,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1040,Software,P4,Cannot install software,"Install of Teams blocked, error 0x80070005.",Approved request via software catalog and pushed install through SCCM.
+INC1041,Software,P1,Cannot install software,"Install of Zoom blocked, error 809.",Approved request via software catalog and pushed install through SCCM.
+INC1042,Software,P2,Cannot install software,"Install of Teams blocked, error 619.",Approved request via software catalog and pushed install through SCCM.
+INC1043,Software,P3,Cannot install software,"Install of Teams blocked, error 809.",Approved request via software catalog and pushed install through SCCM.
+INC1044,Email,P2,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 0x80070005.,Recreated Outlook profile and rebuilt the OST file.
+INC1045,Hardware,P4,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1046,Software,P3,Cannot install software,"Install of Teams blocked, error 809.",Approved request via software catalog and pushed install through SCCM.
+INC1047,Password,P3,Password reset not working,Self-service reset sends no email for Finance user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1048,Password,P1,Password reset not working,Self-service reset sends no email for Marketing user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1049,Hardware,P1,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1050,VPN,P3,Cannot connect to VPN,VPN client fails with error 0x80070005 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1051,Password,P4,Password reset not working,Self-service reset sends no email for HR user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1052,Access,P3,Need access to shared folder,Sales user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1053,Password,P1,Password reset not working,Self-service reset sends no email for HR user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1054,Hardware,P2,Laptop running slow,"Laptop very slow, high disk usage for Sales user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1055,Printer,P3,Printer offline,Printer on floor 11 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1056,Password,P2,Account locked out,User locked out after multiple failed logins on Legal.,Unlocked account in AD and enforced password reset on next login.
+INC1057,Password,P2,Account locked out,User locked out after multiple failed logins on IT.,Unlocked account in AD and enforced password reset on next login.
+INC1058,Hardware,P3,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1059,Password,P2,Account locked out,User locked out after multiple failed logins on HR.,Unlocked account in AD and enforced password reset on next login.
+INC1060,Password,P1,Password reset not working,Self-service reset sends no email for Finance user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1061,Hardware,P3,Laptop running slow,"Laptop very slow, high disk usage for Sales user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1062,Email,P2,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1063,Software,P3,Application crashing,SAP GUI crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1064,Hardware,P4,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1065,Software,P1,Cannot install software,"Install of SAP GUI blocked, error 0x80070005.",Approved request via software catalog and pushed install through SCCM.
+INC1066,Software,P3,Cannot install software,"Install of Tableau blocked, error 0x80070005.",Approved request via software catalog and pushed install through SCCM.
+INC1067,Hardware,P3,Laptop running slow,"Laptop very slow, high disk usage for Sales user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1068,Printer,P2,Printer offline,Printer on floor 8 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1069,Software,P3,Application crashing,Tableau crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1070,Password,P2,Password reset not working,Self-service reset sends no email for IT user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1071,Software,P3,Application crashing,Tableau crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1072,VPN,P1,Cannot connect to VPN,VPN client fails with error 0x80070005 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1073,VPN,P4,Cannot connect to VPN,VPN client fails with error 1603 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1074,Hardware,P2,Laptop running slow,"Laptop very slow, high disk usage for IT user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1075,Hardware,P2,Laptop running slow,"Laptop very slow, high disk usage for IT user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1076,Access,P4,Need access to shared folder,Finance user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1077,Password,P4,Password reset not working,Self-service reset sends no email for IT user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1078,Access,P3,Need access to shared folder,IT user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1079,Access,P2,Need access to shared folder,Legal user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1080,Email,P3,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1081,Email,P4,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1082,Hardware,P3,Laptop running slow,"Laptop very slow, high disk usage for IT user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1083,Software,P4,Application crashing,SAP GUI crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1084,Access,P3,Need access to shared folder,HR user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1085,Access,P2,Need access to shared folder,Marketing user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1086,Printer,P4,Printer offline,Printer on floor 15 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1087,Email,P1,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1088,Printer,P4,Printer offline,Printer on floor 22 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1089,Password,P4,Account locked out,User locked out after multiple failed logins on Sales.,Unlocked account in AD and enforced password reset on next login.
+INC1090,Email,P1,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1091,Printer,P1,Printer offline,Printer on floor 13 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1092,Access,P2,Need access to shared folder,HR user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1093,Password,P2,Account locked out,User locked out after multiple failed logins on HR.,Unlocked account in AD and enforced password reset on next login.
+INC1094,Printer,P1,Printer offline,Printer on floor 7 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1095,Access,P3,Need access to shared folder,Legal user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1096,Software,P2,Application crashing,Adobe Reader crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1097,VPN,P3,VPN keeps disconnecting,VPN drops every 27 minutes while on Wi-Fi.,Disabled Wi-Fi power saving and switched VPN protocol to TCP.
+INC1098,Software,P1,Application crashing,Tableau crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1099,Access,P4,Need access to shared folder,IT user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1100,Hardware,P3,Laptop running slow,"Laptop very slow, high disk usage for Marketing user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1101,Software,P3,Application crashing,Teams crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1102,Email,P4,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 809.,Recreated Outlook profile and rebuilt the OST file.
+INC1103,Software,P2,Application crashing,Tableau crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1104,Printer,P3,Printer offline,Printer on floor 27 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1105,Software,P2,Application crashing,Adobe Reader crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1106,Hardware,P4,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1107,Printer,P2,Printer offline,Printer on floor 11 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1108,Email,P4,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1109,Hardware,P3,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1110,Email,P1,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 809.,Recreated Outlook profile and rebuilt the OST file.
+INC1111,Hardware,P3,Laptop running slow,"Laptop very slow, high disk usage for Marketing user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1112,Hardware,P2,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1113,Email,P2,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 0x80070005.,Recreated Outlook profile and rebuilt the OST file.
+INC1114,Email,P4,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 809.,Recreated Outlook profile and rebuilt the OST file.
+INC1115,VPN,P3,Cannot connect to VPN,VPN client fails with error 0x80070005 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1116,Password,P1,Account locked out,User locked out after multiple failed logins on IT.,Unlocked account in AD and enforced password reset on next login.
+INC1117,Printer,P2,Printer offline,Printer on floor 20 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1118,Password,P4,Password reset not working,Self-service reset sends no email for HR user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1119,Software,P4,Cannot install software,"Install of Tableau blocked, error 1603.",Approved request via software catalog and pushed install through SCCM.
+INC1120,Email,P3,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 809.,Recreated Outlook profile and rebuilt the OST file.
+INC1121,Hardware,P1,Laptop running slow,"Laptop very slow, high disk usage for Finance user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1122,Password,P4,Account locked out,User locked out after multiple failed logins on Marketing.,Unlocked account in AD and enforced password reset on next login.
+INC1123,Email,P4,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 619.,Recreated Outlook profile and rebuilt the OST file.
+INC1124,VPN,P2,Cannot connect to VPN,VPN client fails with error 0x80070005 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1125,Printer,P2,Printer offline,Printer on floor 22 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1126,VPN,P3,Cannot connect to VPN,VPN client fails with error 619 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1127,Printer,P3,Printer offline,Printer on floor 24 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1128,Software,P4,Application crashing,Adobe Reader crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1129,Hardware,P1,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1130,Access,P4,Need access to shared folder,Finance user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1131,Email,P4,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 1603.,Recreated Outlook profile and rebuilt the OST file.
+INC1132,Email,P2,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1133,Email,P1,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1134,Printer,P4,Printer offline,Printer on floor 10 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1135,Access,P3,Need access to shared folder,HR user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1136,Software,P3,Application crashing,Zoom crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1137,Software,P1,Cannot install software,"Install of SAP GUI blocked, error 0x80070005.",Approved request via software catalog and pushed install through SCCM.
+INC1138,VPN,P4,Cannot connect to VPN,VPN client fails with error 619 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1139,VPN,P4,Cannot connect to VPN,VPN client fails with error 809 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1140,Hardware,P2,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1141,Printer,P2,Printer offline,Printer on floor 8 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1142,Access,P3,Need access to shared folder,IT user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1143,Access,P4,Need access to shared folder,Sales user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1144,Access,P3,Need access to shared folder,IT user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1145,Software,P4,Application crashing,Zoom crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1146,Password,P4,Password reset not working,Self-service reset sends no email for Marketing user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1147,Printer,P3,Printer offline,Printer on floor 3 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1148,Access,P1,Need access to shared folder,Legal user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1149,Hardware,P1,Laptop running slow,"Laptop very slow, high disk usage for Marketing user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1150,Printer,P1,Printer offline,Printer on floor 21 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1151,Access,P1,Need access to shared folder,Marketing user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1152,Software,P2,Cannot install software,"Install of Tableau blocked, error 619.",Approved request via software catalog and pushed install through SCCM.
+INC1153,Hardware,P4,Laptop running slow,"Laptop very slow, high disk usage for Marketing user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1154,Password,P3,Password reset not working,Self-service reset sends no email for Sales user.,Corrected the mailbox attribute in AD and re-triggered the reset.
+INC1155,Email,P4,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1156,Software,P4,Cannot install software,"Install of Teams blocked, error 619.",Approved request via software catalog and pushed install through SCCM.
+INC1157,Software,P4,Cannot install software,"Install of Zoom blocked, error 1603.",Approved request via software catalog and pushed install through SCCM.
+INC1158,Hardware,P4,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1159,Email,P3,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 809.,Recreated Outlook profile and rebuilt the OST file.
+INC1160,Hardware,P4,Docking station not detected,External monitors not detected via dock.,Updated dock firmware and display drivers.
+INC1161,Access,P3,Need access to shared folder,IT user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1162,Software,P3,Application crashing,SAP GUI crashes on launch after Windows update.,Rolled back the update and applied vendor patch.
+INC1163,VPN,P3,Cannot connect to VPN,VPN client fails with error 1603 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1164,Password,P1,Account locked out,User locked out after multiple failed logins on Marketing.,Unlocked account in AD and enforced password reset on next login.
+INC1165,Hardware,P3,Laptop running slow,"Laptop very slow, high disk usage for IT user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1166,Hardware,P2,Laptop running slow,"Laptop very slow, high disk usage for Sales user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1167,Password,P2,Account locked out,User locked out after multiple failed logins on Legal.,Unlocked account in AD and enforced password reset on next login.
+INC1168,Email,P4,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1169,VPN,P3,Cannot connect to VPN,VPN client fails with error 619 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1170,VPN,P4,VPN keeps disconnecting,VPN drops every 10 minutes while on Wi-Fi.,Disabled Wi-Fi power saving and switched VPN protocol to TCP.
+INC1171,Email,P1,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1172,Hardware,P3,Laptop running slow,"Laptop very slow, high disk usage for Legal user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1173,Software,P4,Cannot install software,"Install of Tableau blocked, error 809.",Approved request via software catalog and pushed install through SCCM.
+INC1174,VPN,P1,Cannot connect to VPN,VPN client fails with error 809 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1175,VPN,P4,Cannot connect to VPN,VPN client fails with error 619 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1176,Software,P4,Cannot install software,"Install of SAP GUI blocked, error 1603.",Approved request via software catalog and pushed install through SCCM.
+INC1177,Email,P2,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 0x80070005.,Recreated Outlook profile and rebuilt the OST file.
+INC1178,Access,P3,Need access to shared folder,Sales user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1179,VPN,P1,VPN keeps disconnecting,VPN drops every 8 minutes while on Wi-Fi.,Disabled Wi-Fi power saving and switched VPN protocol to TCP.
+INC1180,Hardware,P2,Laptop running slow,"Laptop very slow, high disk usage for Sales user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1181,Access,P2,Need access to shared folder,Legal user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1182,Access,P1,Need access to shared folder,Finance user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1183,Email,P1,Outlook not syncing,Outlook stuck on 'Updating inbox' with error 619.,Recreated Outlook profile and rebuilt the OST file.
+INC1184,Hardware,P3,Laptop running slow,"Laptop very slow, high disk usage for Sales user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1185,VPN,P1,Cannot connect to VPN,VPN client fails with error 0x80070005 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1186,Hardware,P1,Laptop running slow,"Laptop very slow, high disk usage for Sales user.","Disabled startup bloat, cleaned disk, upgraded RAM."
+INC1187,Printer,P3,Printer offline,Printer on floor 25 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1188,Printer,P1,Printer offline,Printer on floor 17 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1189,Printer,P2,Printer offline,Printer on floor 30 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1190,VPN,P3,Cannot connect to VPN,VPN client fails with error 0x80070005 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1191,Printer,P1,Printer offline,Printer on floor 18 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1192,Access,P4,Need access to shared folder,IT user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1193,Email,P3,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
+INC1194,Printer,P1,Printer offline,Printer on floor 13 shows offline for all users.,Restarted print spooler and reassigned a static IP to the printer.
+INC1195,VPN,P2,Cannot connect to VPN,VPN client fails with error 809 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1196,Software,P3,Cannot install software,"Install of SAP GUI blocked, error 0x80070005.",Approved request via software catalog and pushed install through SCCM.
+INC1197,Access,P3,Need access to shared folder,Legal user requests access to finance share.,Access approved by manager and user added to the AD security group.
+INC1198,VPN,P1,Cannot connect to VPN,VPN client fails with error 619 from home network.,"Reset VPN profile, cleared cached credentials, reinstalled client."
+INC1199,Email,P2,Mailbox full,User cannot send mail; mailbox quota exceeded.,Archived old mail and increased quota to 100 GB.
