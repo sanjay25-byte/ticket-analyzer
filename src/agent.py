@@ -115,9 +115,9 @@ def escalate(s):
         if new:
             w.writerow(["id", "question", "reason"])
         w.writerow([tid, s["question"], s.get("reason") or "no relevant context"])
-    return {"answer": f"I couldn't answer this reliably, so I created escalation ticket {tid} for a human agent.",
-            "escalated": True, "citations": []}
-
+    msg = ("This needs a human, so I created ticket " if s.get("route") == "human"
+           else "I couldn't answer this reliably, so I created ticket ")
+    return {"answer": f"{msg}{tid} for a human agent.", "escalated": True, "citations": []}
 
 g = StateGraph(State)
 for name, fn in [("n_route", route), ("n_rewrite", rewrite), ("n_retrieve", retrieve),
